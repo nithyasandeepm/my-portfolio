@@ -20,14 +20,14 @@ export const skillsUnsorted: skillsInterface[] = [
     description:
       "Mapping workflows, identifying bottlenecks, and driving automation opportunities with a sharp lens on ROI.",
     rating: 5,
-    icon: Icons.zapier,
+    icon: Icons.lucid,
   },
   {
     name: "Requirements & User Stories",
     description:
       "Full documentation stack: requirements docs, solution docs, process flows, and user stories built for stakeholder clarity.",
     rating: 5,
-    icon: Icons.post,
+    icon: Icons.confluence,
   },
   {
     name: "JIRA",
@@ -41,7 +41,7 @@ export const skillsUnsorted: skillsInterface[] = [
     description:
       "Agile ceremonies, sprint cycles, and iterative delivery — bridging business needs with development execution.",
     rating: 5,
-    icon: Icons.atlassian,
+    icon: Icons.jira,
   },
   {
     name: "Claude",
@@ -56,6 +56,20 @@ export const skillsUnsorted: skillsInterface[] = [
       "Collaborative documentation and knowledge management — the single source of truth for process and product teams.",
     rating: 4,
     icon: Icons.confluence,
+  },
+  {
+    name: "Rovo",
+    description:
+      "Atlassian's AI assistant for surfacing insights, answering questions, and automating work across the Atlassian suite.",
+    rating: 4,
+    icon: Icons.atlassian,
+  },
+  {
+    name: "Loom",
+    description:
+      "Async video communication for walkthroughs, demos, and stakeholder updates — replacing long email threads with clarity.",
+    rating: 4,
+    icon: Icons.loom,
   },
   {
     name: "UAT & QA",
