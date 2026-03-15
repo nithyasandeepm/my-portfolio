@@ -1,0 +1,152 @@
+Experience
+
+
+Atlassian logo
+Sr. Business Process Analyst - New Product Introduction (NPI)
+
+Atlassian · Full-time
+
+Oct 2025 - Present · 6 mos
+
+Remote
+
+Embedded within Atlassian's Revenue Operations / Sales Operations team, bridging the gap between product strategy and sales execution. Core focus is operationalizing product and pricing changes across a rapidly evolving SaaS portfolio 
+New Product Introduction (NPI) & Sales Operations
+• Lead end-to-end NPI process — from analysis  through to testing — ensuring product and pricing changes translate seamlessly into sales execution
+• Own CPQ and NPI enhancements across the full lifecycle, driving consensus across Product, Finance,
+Deal Desk, Sales, and IT.
+• Analyze upstream and downstream impacts of new product introductions on Contact form, billing, renewals.
+• Maintain SKU configuration integrity across environments, ensuring pricing accuracy and system consistency.
+Process Design & Documentation
+• Own requirements documentation including Business Requirement Documents (BRDs), process flows,
+DACIs— creating artifacts that align stakeholders and accelerate delivery
+• Translate complex product and pricing strategies into executable operational plans, identifying process
+improvement opportunities.
+AI Tools in Practice
+• Leverage Atlassian Rovo (AI assistant) to query knowledge bases, surface answers from Confluence
+pages, and generate summaries — cutting research time and accelerating decision-making
+• Integrated Rovo directly into Slack — enabling real-time project context, conversation summaries, and
+instant answers pulled from Confluence without ever leaving the chat interface, eliminating context-
+switching and keeping stakeholder alignment faster and sharper
+• Use Loom's AI capabilities as an intelligent meeting note-taker — automatically capturing discussions,
+transforming conversations into structured action items, and extracting requirements directly from meeting
+recordings
+• Connected these tools into a single AI-powered workflow spanning Slack, Confluence, and documentation
+— reducing manual effort and improving the speed and quality of every deliverable
+
+Vimeo logo
+Sr. Business Systems Analyst - Salesforce
+
+Vimeo · Full-time
+
+Aug 2024 - Sep 2025 · 1 yr 2 mos
+
+Massachusetts, United States · Remote
+
+CPQ Readiness & Sales Process Discovery
+-Mapped 14 complex sales processes (new business, renewals, amendments, cross-sells, etc.), uncovering heavy manual work across deal desk and finance.
+-Identified opportunities to cut deal desk effort by 30% and finance effort by 25% per process, boosting efficiency.
+Streamlined Sales Use Case Framework
+-Partnered with Customer Success and Product teams to redesign the Sales Use Case framework.
+-Delivered a scalable solution that reduced data loss, captured primary buying reasons, and improved customer insights.
+-Enhanced reporting and analytics, enabling stronger visibility into customer behavior and sales drivers.
+Opportunity Framework Overhaul
+-Simplified from 5+ types with 8–10 subtypes to 4 core types with 3–4 subtypes—cutting complexity by 50%.
+-Standardized stages for better forecasting, pipeline visibility, and data quality, while reducing tech debt.
+Partner Channel Reporting
+-Redefined partner role capture (sourced, influenced, referred) for accurate attribution and fair payouts.
+-Automated workflows, reduced manual effort, and improved forecast accuracy.
+-Delivered insights that boosted partner engagement and market growth.
+
+Sophos logo
+IT Apps Manager - Enterprise Applications -Salesforce
+
+Sophos · Full-time
+
+Jul 2022 - Aug 2024 · 2 yrs 2 mos
+
+Massachusetts, United States · Remote
+
+Salesforce Transformation & System Integration
+-Led a $40M Salesforce Sales Cloud transformation (Classic → Lightning), boosting user experience and agility.
+-Integrated Anaplan, Zuora, and Revenera with Salesforce, driving end-to-end GTM, Finance, and Ops automation.
+-Partnered with leadership team to define the Salesforce Front Office roadmap, aligning CRM with GTM priorities.
+Operational Efficiency & Cost Optimization
+-Improved operational efficiency by 25% through cross-functional process optimization.
+-Reduced vendor costs by 15% via contract renegotiations and license optimization.
+Platform Stabilization & User Adoption
+-Cut post-launch issues by 75% during hyper-care, accelerating platform stabilization.
+-Established streamlined BAU processes, improving delivery speed on critical initiatives.
+-Drove user adoption through sales enablement and scalable business tools.
+Leadership & Team Development
+-Built and led a remote team of BAs, fostering growth and accountability.
+-Mentored Juniors, set clear goals, and enabled career progression through coaching.
+
+ Salesforce Sales Cloud, Business Process Analysis and +15 skills
+
+Sophos logo
+Salesforce Senior Business Systems  Analyst
+
+Sophos · Full-time
+
+Apr 2021 - May 2022 · 1 yr 2 mos
+
+Massachusetts, United States · Remote
+
+Salesforce Transformation & Sales Process Optimization
+-Led full Sales Cloud migration (Classic → Lightning) with Lead-to-Cash implementation, boosting sales throughput by 20%.
+-Improved sales efficiency by 65% through automated renewals (auto-generated Opportunities & Quotes).
+-Streamlined lead conversion and deal registration via Partner Portal, driving a 30% increase in opportunity creation.
+-Simplified quote approvals, accelerating submission rates by 25%, and reduced sales touchpoints with automated discounting.
+Partner Portal Revamp & Enablement
+-Revamped Partner Portal with intuitive workflows (Opportunity mgmt., Deal Registration, Quotes, Orders).
+-Increased quoting & ordering activity by 20% through simplified entitlement amendments and renewals.
+-Redesigned onboarding/offboarding, cutting Partner account errors by 70% and improving Partner experience.
+Order Management & Fulfillment Optimization
+-Implemented low-touch order fulfillment, reducing processing times by 15% and raising customer satisfaction.
+-Optimized EDI processing, cutting order rejections by 30% and manual fixes by 45%.
+Deal Desk & Operational Efficiency
+-Established centralized Deal Desk, improving throughput by 30%.
+-Simplified sales support workflows, enabling faster decisions and stronger data accuracy.
+
+ Salesforce Sales Cloud, Business Process Analysis and +19 skills
+
+Paychex logo
+Senior Business System Analyst
+
+Paychex
+
+Dec 2014 - Mar 2021 · 6 yrs 4 mos
+
+Webster, NY · Hybrid
+
+• Led state mandated projects such as MA PFML, NY PFL where I Orchestrated workshops to gather business needs and facilitated requirements gathering sessions. 
+• Mobile app UX improvement redesign project, improved customer engagement by 25%. 
+• Support multiple cross functional agile teams, convert product ideas and requirements into themes, epics and user stories and built product backlog.
+• Demonstrated ability to make tradeoffs, reconcile conflicts, conducted backlog grooming, and prioritize user stories of multiple product lines to provide continuous delivery and maximize delivered value.
+• Devised creative strategies to collaborate with difficult stakeholders, virtual stakeholders, disengaged team members thereby reducing risks, maximizing stakeholder and team member engagement, and building strong working relationships.
+• Increased the solution value by conducting solution evaluation on recently launched product to measure performance against perceived value by comparing the Performance results to perceived value, investigated solution and enterprise limitations, and provided recommendations to increase the solution value. 
+• Took the lead in demoing stories to stakeholders and captured feedback for incremental improvements in upcoming sprints.
+• Optimize business process operations projects where the goal was to maximize value by removing redundancies and reduce interface complexities.
+• Represent the team in program board meetings and stakeholder meetings to ensure the team is on track on deliverables, identify inter team dependencies and project risks.
+
+ Business Process Analysis, Business Requirements and +12 skills
+
+Excellus BCBS logo
+Business Analyst- Consultant
+
+Excellus BCBS
+
+Dec 2013 - Nov 2014 · 1 yr
+
+Rochester, New York Metropolitan Area · On-site
+
+• Facilitated support across multiple cross-functional Agile teams, translating product ideas and requirements into themes, epics, and user stories while managing the product backlog.
+• Exhibited adeptness in making tradeoffs, resolving conflicts, conducting backlog grooming, and prioritizing user stories across various product lines to ensure continuous delivery and maximize value.
+• Developed innovative strategies to engage challenging stakeholders, virtual participants, and disengaged team members, thereby mitigating risks, enhancing stakeholder and team involvement, and fostering robust working relationships.
+• Enhanced solution value through rigorous evaluation of recently launched products, measuring performance against perceived value, investigating solution and enterprise constraints, and offering recommendations for improvement.
+• Spearheaded story demonstrations to stakeholders, capturing feedback for iterative enhancements in upcoming sprints.
+• Streamlined business process operations projects to maximize value by eliminating redundancies and reducing interface complexities.
+• Acted as the team representative in program board meetings and stakeholder sessions to track deliverables, identify inter-team dependencies, and assess project risks.
+
+ Business Process Analysis, Business Requirements and +4 skills
