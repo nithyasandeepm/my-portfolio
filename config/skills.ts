@@ -16,67 +16,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.salesforce,
   },
   {
-    name: "Process Analysis",
+    name: "Replit",
     description:
-      "Mapping workflows, identifying bottlenecks, and driving automation opportunities with a sharp lens on ROI.",
+      "AI-assisted browser-based development environment — used to build and ship a fully transacting web application.",
     rating: 5,
-    icon: Icons.lucid,
-  },
-  {
-    name: "Requirements & User Stories",
-    description:
-      "Full documentation stack: requirements docs, solution docs, process flows, and user stories built for stakeholder clarity.",
-    rating: 5,
-    icon: Icons.confluence,
-  },
-  {
-    name: "JIRA",
-    description:
-      "Sprint planning, backlog grooming, and end-to-end project tracking across Agile delivery teams.",
-    rating: 5,
-    icon: Icons.jira,
-  },
-  {
-    name: "Agile / Scrum",
-    description:
-      "Agile ceremonies, sprint cycles, and iterative delivery — bridging business needs with development execution.",
-    rating: 5,
-    icon: Icons.jira,
-  },
-  {
-    name: "Claude",
-    description:
-      "AI research, documentation drafting, analysis, and ideation — a core partner in reimagining how analysts work.",
-    rating: 5,
-    icon: Icons.anthropic,
-  },
-  {
-    name: "Confluence",
-    description:
-      "Collaborative documentation and knowledge management — the single source of truth for process and product teams.",
-    rating: 5,
-    icon: Icons.confluence,
-  },
-  {
-    name: "Rovo",
-    description:
-      "Atlassian's AI assistant for surfacing insights, answering questions, and automating work across the Atlassian suite.",
-    rating: 5,
-    icon: Icons.atlassian,
-  },
-  {
-    name: "Loom",
-    description:
-      "Async video communication for walkthroughs, demos, and stakeholder updates — replacing long email threads with clarity.",
-    rating: 5,
-    icon: Icons.loom,
-  },
-  {
-    name: "UAT & QA",
-    description:
-      "End-to-end user acceptance testing, defect management, and sign-off coordination across complex system implementations.",
-    rating: 5,
-    icon: Icons.check,
+    icon: Icons.laptop,
   },
   {
     name: "GitHub",
@@ -86,18 +30,32 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.gitHub,
   },
   {
-    name: "Replit",
+    name: "Vercel",
     description:
-      "AI-assisted browser-based development environment — used to build and ship a fully transacting web application.",
-    rating: 5,
-    icon: Icons.laptop,
+      "Cloud deployment and hosting — hands-on experience deploying and debugging a live web application.",
+    rating: 4,
+    icon: Icons.vercel,
   },
   {
-    name: "Zapier",
+    name: "Loom",
     description:
-      "Workflow automation connecting business tools — eliminating manual steps and enabling scalable process design.",
-    rating: 4,
-    icon: Icons.zapier,
+      "Async video communication for walkthroughs, demos, and stakeholder updates — replacing long email threads with clarity.",
+    rating: 5,
+    icon: Icons.loom,
+  },
+  {
+    name: "Rovo",
+    description:
+      "Atlassian's AI assistant for surfacing insights, answering questions, and automating work across the Atlassian suite.",
+    rating: 5,
+    icon: Icons.atlassian,
+  },
+  {
+    name: "Claude",
+    description:
+      "AI research, documentation drafting, analysis, and ideation — a core partner in reimagining how analysts work.",
+    rating: 5,
+    icon: Icons.anthropic,
   },
   {
     name: "NotebookLM",
@@ -107,6 +65,13 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.gitRepoIcon,
   },
   {
+    name: "Zapier",
+    description:
+      "Workflow automation connecting business tools — eliminating manual steps and enabling scalable process design.",
+    rating: 4,
+    icon: Icons.zapier,
+  },
+  {
     name: "Gemini",
     description:
       "Google's AI model used for research, debugging, and problem-solving across complex technical and analytical tasks.",
@@ -114,23 +79,14 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.gemini,
   },
   {
-    name: "SQL",
+    name: "Lucid Charts",
     description:
-      "Data querying for reporting, analysis, and system validation — supporting data-driven decision making.",
-    rating: 3,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Vercel",
-    description:
-      "Cloud deployment and hosting — hands-on experience deploying and debugging a live web application.",
-    rating: 3,
-    icon: Icons.vercel,
+      "Mapping workflows, identifying bottlenecks, and driving automation opportunities with a sharp lens on ROI.",
+    rating: 5,
+    icon: Icons.lucid,
   },
 ];
 
-export const skills = skillsUnsorted
-  .slice()
-  .sort((a, b) => b.rating - a.rating);
+export const skills = skillsUnsorted;
 
 export const featuredSkills = skills.slice(0, 6);
