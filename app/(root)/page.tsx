@@ -243,35 +243,6 @@ export default function IndexPage() {
         </AnimatedText>
       </AnimatedSection>
 
-      {/* CONTACT */}
-      <AnimatedSection
-        direction="up"
-        className="container space-y-6 py-10 my-14"
-        id="contact"
-      >
-        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-          <AnimatedText
-            as="h2"
-            className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl"
-          >
-            {pagesConfig.contact.title}
-          </AnimatedText>
-          <AnimatedText
-            as="p"
-            delay={0.2}
-            className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
-          >
-            {pagesConfig.contact.description}
-          </AnimatedText>
-          <AnimatedText delay={0.4}>
-            <Link href="/contact">
-              <Button size="lg" className="rounded-xl mt-4">
-                <Icons.contact className="mr-2 h-4 w-4" /> Get in Touch
-              </Button>
-            </Link>
-          </AnimatedText>
-        </div>
-      </AnimatedSection>
     </ClientPageWrapper>
   );
 }
