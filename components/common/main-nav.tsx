@@ -54,7 +54,7 @@ export function MainNav({ items, children }: MainNavProps) {
         transition={{ duration: 0.5 }}
       >
         <Link href="/" className="hidden items-center space-x-2 md:flex">
-          <span className={cn(norican.className, "text-2xl text-primary")}>
+          <span className={cn(norican.className, "text-2xl")} style={{ color: "#E1306C" }}>
             {siteConfig.authorName}
           </span>
         </Link>
