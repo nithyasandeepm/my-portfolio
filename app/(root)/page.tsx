@@ -90,7 +90,7 @@ export default function IndexPage() {
           <AnimatedText
             as="h1"
             delay={0.2}
-            className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
+            className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl gradient-name"
           >
             {siteConfig.authorName}
           </AnimatedText>
