@@ -97,11 +97,13 @@ export default function IndexPage() {
           >
             Business Analyst · Process Analyst · Systems Analyst
           </AnimatedText>
-          <div className="mt-4 max-w-[42rem] text-center">
-            <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              {siteConfig.description}
-            </p>
-          </div>
+          <AnimatedText
+            as="p"
+            delay={0.55}
+            className="max-w-[42rem] text-center leading-relaxed text-muted-foreground text-sm sm:text-base italic mt-1"
+          >
+            I map chaos for a living. The AI side quest was inevitable. Turns out the two have more in common than you&apos;d think.
+          </AnimatedText>
 
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
