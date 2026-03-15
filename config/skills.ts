@@ -54,28 +54,28 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Confluence",
     description:
       "Collaborative documentation and knowledge management — the single source of truth for process and product teams.",
-    rating: 4,
+    rating: 5,
     icon: Icons.confluence,
   },
   {
     name: "Rovo",
     description:
       "Atlassian's AI assistant for surfacing insights, answering questions, and automating work across the Atlassian suite.",
-    rating: 4,
+    rating: 5,
     icon: Icons.atlassian,
   },
   {
     name: "Loom",
     description:
       "Async video communication for walkthroughs, demos, and stakeholder updates — replacing long email threads with clarity.",
-    rating: 4,
+    rating: 5,
     icon: Icons.loom,
   },
   {
     name: "UAT & QA",
     description:
       "End-to-end user acceptance testing, defect management, and sign-off coordination across complex system implementations.",
-    rating: 4,
+    rating: 5,
     icon: Icons.check,
   },
   {
@@ -89,7 +89,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Replit",
     description:
       "AI-assisted browser-based development environment — used to build and ship a fully transacting web application.",
-    rating: 4,
+    rating: 5,
     icon: Icons.laptop,
   },
   {
@@ -103,14 +103,14 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "NotebookLM",
     description:
       "AI-powered research and document synthesis — turning dense source material into structured, actionable insights.",
-    rating: 3,
+    rating: 5,
     icon: Icons.gitRepoIcon,
   },
   {
     name: "Gemini",
     description:
       "Google's AI model used for research, debugging, and problem-solving across complex technical and analytical tasks.",
-    rating: 3,
+    rating: 5,
     icon: Icons.gemini,
   },
   {
