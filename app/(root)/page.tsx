@@ -96,7 +96,7 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Business Analyst · Process Analyst · Systems Analyst
+            Business · Process · Systems — the analyst in the middle of all three!
           </AnimatedText>
           <AnimatedText
             as="p"
