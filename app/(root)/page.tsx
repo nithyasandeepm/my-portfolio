@@ -15,6 +15,7 @@ import { experiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
+import { SocialLinks } from "@/config/socials";
 import { getFeaturedBlogs } from "@/lib/blogs";
 import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
@@ -105,32 +106,23 @@ export default function IndexPage() {
             I map chaos for a living. The AI side quest was inevitable. Turns out the two have more in common than you&apos;d think.
           </AnimatedText>
 
-          <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
-            <AnimatedText delay={0.6}>
-              <Link
-                href={"/resume"}
-                target="_blank"
-                className={cn(buttonVariants({ size: "lg" }))}
-                aria-label="View resume"
-              >
-                <Icons.post className="w-4 h-4 mr-2" /> Resume
-              </Link>
-            </AnimatedText>
-            <AnimatedText delay={0.8}>
-              <Link
-                href={"/contact"}
-                rel="noreferrer"
-                className={cn(
-                  buttonVariants({
-                    variant: "outline",
-                    size: "lg",
-                  })
-                )}
-                aria-label={`Contact ${siteConfig.authorName}`}
-              >
-                <Icons.contact className="w-4 h-4 mr-2" /> Contact
-              </Link>
-            </AnimatedText>
+          <div className="flex items-center justify-center gap-4 mt-10">
+            {SocialLinks.map((item, ind) => (
+              <AnimatedText key={ind} delay={0.6 + ind * 0.15}>
+                <Link
+                  href={item.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={item.name}
+                  className={cn(
+                    buttonVariants({ variant: "outline", size: "lg" }),
+                    "h-12 w-12 p-0 rounded-full"
+                  )}
+                >
+                  <item.icon className="h-5 w-5" />
+                </Link>
+              </AnimatedText>
+            ))}
           </div>
           <AnimatedText delay={1.2}>
             <Icons.chevronDown className="h-6 w-6 mt-10" />
