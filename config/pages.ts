@@ -23,7 +23,7 @@ export const pagesConfig: PagesConfig = {
   },
   skills: {
     title: "Skills",
-    description: "The tools, methods, and platforms I use to turn complexity into clarity.",
+    description: "",
     metadata: {
       title: "Skills",
       description:
