@@ -66,11 +66,11 @@ export const pagesConfig: PagesConfig = {
   blogs: {
     title: "Blogs",
     description:
-      "Thoughts on AI, software engineering, and building in public.",
+      "Perspectives on business analysis, process design, and navigating the intersection of tech and strategy.",
     metadata: {
       title: "Blogs",
       description:
-        "Naman Barkiya's blog — thoughts on AI, software engineering, and building in public.",
+        "Nithya Raveendran's blog — perspectives on business analysis, process design, and navigating the intersection of tech and strategy.",
     },
   },
   experience: {
