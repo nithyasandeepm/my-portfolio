@@ -25,14 +25,18 @@ export default function BlogCard({ blog }: BlogCardProps) {
       <article className="flex flex-col h-full">
         {/* Cover image */}
         {blog.coverImage && (
-          <div className="relative w-full h-[180px] flex-shrink-0 overflow-hidden bg-muted">
+          <div className="relative w-full h-[200px] flex-shrink-0 overflow-hidden bg-muted blog-cover-wrapper">
             <Image
               src={blog.coverImage}
               alt={blog.title}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover object-top transition-transform duration-700 group-hover:scale-110 blog-cover-img"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
+            <div className="blog-cover-shimmer" aria-hidden="true" />
+            <div className="absolute top-3 right-3 blog-sparkle-1">✨</div>
+            <div className="absolute top-6 right-8 blog-sparkle-2">⭐</div>
           </div>
         )}
 

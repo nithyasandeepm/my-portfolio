@@ -674,3 +674,57 @@
   margin: 1.5rem auto;
   display: block;
 }
+/* ===== Blog card cover animations ===== */
+@keyframes blog-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes blog-glow-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 transparent; }
+  50% { box-shadow: 0 0 20px 4px hsl(var(--primary) / 0.35); }
+}
+
+@keyframes blog-shimmer {
+  0% { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(200%) skewX(-15deg); }
+}
+
+@keyframes sparkle-1 {
+  0%, 100% { opacity: 0.9; transform: scale(1) rotate(0deg); }
+  50% { opacity: 0.4; transform: scale(0.7) rotate(20deg); }
+}
+
+@keyframes sparkle-2 {
+  0%, 100% { opacity: 0.5; transform: scale(0.8) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.1) rotate(-15deg); }
+}
+
+.blog-cover-wrapper {
+  animation: blog-glow-pulse 3s ease-in-out infinite;
+}
+
+.blog-cover-shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    hsl(var(--primary) / 0.15) 50%,
+    transparent 60%
+  );
+  animation: blog-shimmer 3.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.blog-sparkle-1 {
+  font-size: 1rem;
+  animation: sparkle-1 2s ease-in-out infinite;
+  filter: drop-shadow(0 0 4px hsl(var(--primary) / 0.8));
+}
+
+.blog-sparkle-2 {
+  font-size: 0.7rem;
+  animation: sparkle-2 2.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 3px hsl(var(--primary) / 0.6));
+}
