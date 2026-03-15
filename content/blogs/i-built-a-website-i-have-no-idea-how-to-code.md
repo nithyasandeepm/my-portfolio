@@ -2,7 +2,7 @@
 title: "I Built a Website. I Have No Idea How to Code."
 date: "2025-03-15"
 description: "A Business Process Analyst with zero technical background, a GitHub account I made four days ago, and a deadline. Here's what happened."
-tags: ["Career", "No-Code", "Business Analysis", "Web Development", "AI Tools"]
+tags: ["No-Code", "Web Development", "AI Tools", "Replit", "GitHub", "Vercel"]
 coverImage: "/blogs/nithya-cartoon-v7.png"
 featured: true
 readingTime: 8

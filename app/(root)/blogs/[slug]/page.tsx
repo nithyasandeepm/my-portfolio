@@ -111,7 +111,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       "@type": "Person",
       name: siteConfig.authorName,
       url: siteConfig.url,
-      sameAs: [siteConfig.links.github, siteConfig.links.twitter],
+      sameAs: [siteConfig.links.github, siteConfig.links.linkedin].filter(Boolean),
     },
     publisher: {
       "@type": "Person",
@@ -307,14 +307,20 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </Link>
             <div className="text-sm text-muted-foreground">
               Written by{" "}
-              <Link
-                href={siteConfig.links.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-foreground hover:text-primary transition-colors"
-              >
-                {siteConfig.authorName}
-              </Link>
+              {siteConfig.links.linkedin ? (
+                <Link
+                  href={siteConfig.links.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-foreground hover:text-primary transition-colors"
+                >
+                  {siteConfig.authorName}
+                </Link>
+              ) : (
+                <span className="font-medium text-foreground">
+                  {siteConfig.authorName}
+                </span>
+              )}
             </div>
           </footer>
         </AnimatedSection>
