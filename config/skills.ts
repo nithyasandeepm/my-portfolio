@@ -9,152 +9,109 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
+    name: "Salesforce",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "End-to-end CRM across the full lead-to-order lifecycle — lead conversion, CPQ, deal management, and order processing.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.salesforce,
   },
   {
-    name: "React",
+    name: "Process Analysis",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+      "Mapping workflows, identifying bottlenecks, and driving automation opportunities with a sharp lens on ROI.",
     rating: 5,
-    icon: Icons.react,
+    icon: Icons.zapier,
   },
   {
-    name: "GraphQL",
+    name: "Requirements & User Stories",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+      "Full documentation stack: requirements docs, solution docs, process flows, and user stories built for stakeholder clarity.",
+    rating: 5,
+    icon: Icons.post,
+  },
+  {
+    name: "JIRA",
+    description:
+      "Sprint planning, backlog grooming, and end-to-end project tracking across Agile delivery teams.",
+    rating: 5,
+    icon: Icons.jira,
+  },
+  {
+    name: "Agile / Scrum",
+    description:
+      "Agile ceremonies, sprint cycles, and iterative delivery — bridging business needs with development execution.",
+    rating: 5,
+    icon: Icons.atlassian,
+  },
+  {
+    name: "Claude",
+    description:
+      "AI research, documentation drafting, analysis, and ideation — a core partner in reimagining how analysts work.",
+    rating: 5,
+    icon: Icons.anthropic,
+  },
+  {
+    name: "Confluence",
+    description:
+      "Collaborative documentation and knowledge management — the single source of truth for process and product teams.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.confluence,
   },
   {
-    name: "Nest.js",
+    name: "UAT & QA",
     description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
+      "End-to-end user acceptance testing, defect management, and sign-off coordination across complex system implementations.",
     rating: 4,
-    icon: Icons.nestjs,
+    icon: Icons.check,
   },
   {
-    name: "express.js",
+    name: "GitHub",
     description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
-  },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
-  },
-  {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+      "Version control and repository management — including real-world deployment troubleshooting experience.",
     rating: 4,
-    icon: Icons.html5,
+    icon: Icons.gitHub,
   },
   {
-    name: "CSS 3",
+    name: "Replit",
     description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+      "AI-assisted browser-based development environment — used to build and ship a fully transacting web application.",
     rating: 4,
-    icon: Icons.css3,
+    icon: Icons.laptop,
   },
   {
-    name: "React Native",
+    name: "Zapier",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "Workflow automation connecting business tools — eliminating manual steps and enabling scalable process design.",
     rating: 4,
-    icon: Icons.react,
+    icon: Icons.zapier,
   },
   {
-    name: "Angular",
+    name: "NotebookLM",
     description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+      "AI-powered research and document synthesis — turning dense source material into structured, actionable insights.",
     rating: 3,
-    icon: Icons.angular,
+    icon: Icons.gitRepoIcon,
   },
   {
-    name: "Redux",
+    name: "Gemini",
     description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
+      "Google's AI model used for research, debugging, and problem-solving across complex technical and analytical tasks.",
     rating: 3,
-    icon: Icons.socketio,
+    icon: Icons.gemini,
   },
   {
-    name: "Material UI",
+    name: "SQL",
     description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+      "Data querying for reporting, analysis, and system validation — supporting data-driven decision making.",
     rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
     icon: Icons.mysql,
   },
   {
-    name: "Netlify",
+    name: "Vercel",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+      "Cloud deployment and hosting — hands-on experience deploying and debugging a live web application.",
+    rating: 3,
+    icon: Icons.vercel,
   },
 ];
 
